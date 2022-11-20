@@ -15,9 +15,7 @@ export default function Error() {
       <div className="text-center text-5xl">Page not found</div>
       <div className="text-center text-lg">
         Go
-        <div classname="text-blue-600" onClick={goToStart}>
-          Home
-        </div>
+        <span onClick={goToStart}> Home</span>
       </div>
     </div>
   );

@@ -5,6 +5,24 @@
       "email": "test@gmail.com",
       "password": "qwerty",
       "createdAt": "2022-11-12T11:59:54.605Z"
+    },
+    {
+      "createdAt": "2022-11-20T20:34:55.955Z",
+      "email": "1",
+      "password": "1",
+      "id": 2
+    },
+    {
+      "createdAt": "2022-11-20T20:35:17.011Z",
+      "email": "1",
+      "password": "1",
+      "id": 3
+    },
+    {
+      "createdAt": "2022-11-20T20:36:54.059Z",
+      "email": "1",
+      "password": "1",
+      "id": 4
     }
   ],
   "notes": [
@@ -21,6 +39,13 @@
       "title": "wefwefw",
       "body": "efwefwefwef",
       "createdAt": "2022-11-20T18:42:11.499Z"
+    },
+    {
+      "userId": "2",
+      "title": "",
+      "body": "",
+      "createdAt": "2022-11-20T20:36:19.649Z",
+      "id": 3
     }
   ]
 }
