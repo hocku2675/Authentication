@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "test@gmail.com",
+      "password": "qwerty",
+      "createdAt": "2022-11-12T11:59:54.605Z"
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "userId": "1",
+      "title": "test_noteasdas",
+      "body": "qwertyasdasdasdasdasdasd",
+      "createdAt": "2022-11-20T19:24:46.922Z"
+    },
+    {
+      "id": 2,
+      "userId": "1",
+      "title": "wefwefw",
+      "body": "efwefwefwef",
+      "createdAt": "2022-11-20T18:42:11.499Z"
+    }
+  ]
+}
