@@ -8,6 +8,7 @@ const Singup = () => {
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
   const [repeatPassword, setRepeatPassword] = useState("");
 
   function handleSingup() {
@@ -17,7 +18,7 @@ const Singup = () => {
       password: password.toString(),
     };
     if (password !== repeatPassword) {
-      alert("Password not the same!");
+      alert("Wrong Password!");
     } else {
       fetch("http://localhost:5000/users", {
         method: "POST",
@@ -31,7 +32,7 @@ const Singup = () => {
           navigate("/");
         })
         .catch(() => {
-          alert("Something goes wrong!");
+          alert("Something goes wrong...");
         });
     }
   }
